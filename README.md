@@ -1,7 +1,7 @@
 # Reto2Intermedio
  Reto carreras
  Realizado por:
- NAtalia Luna
+ Natalia Luna
  Mario Triana
  Rafael Fuentes
  
