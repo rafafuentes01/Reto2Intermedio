@@ -45,11 +45,13 @@ public class CarSelection : MonoBehaviour
             {
                 Material materialHijo = renderer.material;
                 colorSeleccion = materialHijo.color;
+
+                PlayerPrefs.SetFloat("R", colorSeleccion.r);
+                PlayerPrefs.SetFloat("G", colorSeleccion.g);
+                PlayerPrefs.SetFloat("B", colorSeleccion.b);
+                PlayerPrefs.SetFloat("A", colorSeleccion.a);
             }
         }
-        PlayerPrefs.SetFloat("R", colorSeleccion.r);
-        PlayerPrefs.SetFloat("G", colorSeleccion.g);
-        PlayerPrefs.SetFloat("B", colorSeleccion.b);
-        PlayerPrefs.SetFloat("A", colorSeleccion.a);
+        
     }
 }

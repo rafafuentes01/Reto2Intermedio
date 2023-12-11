@@ -183,15 +183,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: BACK
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ad67e0a82582ed04d9f017471530c69e, type: 2}
-  m_sharedMaterial: {fileID: 7890728298643915943, guid: ad67e0a82582ed04d9f017471530c69e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8ba91548ba12e8043a61ee48e50c1d40, type: 2}
+  m_sharedMaterial: {fileID: 8576574138303736738, guid: 8ba91548ba12e8043a61ee48e50c1d40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -208,10 +208,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 24
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -444,8 +444,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2134150136, guid: 0d42acd25aaee114eaa5e8b349adfd99, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5bb3dd598195e0641b6937e1df243856, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -559,7 +559,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 721711052137fd645943f17700ca1ba1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.28
+  m_Volume: 0.77
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -954,8 +954,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SELECT YOUR CAR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ad67e0a82582ed04d9f017471530c69e, type: 2}
-  m_sharedMaterial: {fileID: 7890728298643915943, guid: ad67e0a82582ed04d9f017471530c69e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8ba91548ba12e8043a61ee48e50c1d40, type: 2}
+  m_sharedMaterial: {fileID: 8576574138303736738, guid: 8ba91548ba12e8043a61ee48e50c1d40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -986,8 +986,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 121.96
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1435,15 +1435,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: START
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ad67e0a82582ed04d9f017471530c69e, type: 2}
-  m_sharedMaterial: {fileID: 7890728298643915943, guid: ad67e0a82582ed04d9f017471530c69e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8ba91548ba12e8043a61ee48e50c1d40, type: 2}
+  m_sharedMaterial: {fileID: 8576574138303736738, guid: 8ba91548ba12e8043a61ee48e50c1d40, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1460,10 +1460,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 24
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -2404,9 +2404,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1999395485}
-        m_TargetAssemblyTypeName: CambiardeEscena, Assembly-CSharp
-        m_MethodName: CambiarEscena
+      - m_Target: {fileID: 1470632042}
+        m_TargetAssemblyTypeName: CarSelection, Assembly-CSharp
+        m_MethodName: CambiarColorCarro
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2416,9 +2416,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1470632042}
-        m_TargetAssemblyTypeName: CarSelection, Assembly-CSharp
-        m_MethodName: CambiarColorCarro
+      - m_Target: {fileID: 1999395485}
+        m_TargetAssemblyTypeName: CambiardeEscena, Assembly-CSharp
+        m_MethodName: CambiarEscena
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2448,8 +2448,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2134150136, guid: 0d42acd25aaee114eaa5e8b349adfd99, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5bb3dd598195e0641b6937e1df243856, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2478,7 +2478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce582e8d6616ad469d0bc9f8fa69f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pasarEscena: Cambio1
+  proximaEscena: NivelSeleccion
 --- !u!1 &2053469634
 GameObject:
   m_ObjectHideFlags: 0

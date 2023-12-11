@@ -6,7 +6,7 @@ public class AsignarColor : MonoBehaviour
     {
         Renderer renderer = GetComponent<Renderer>();
 
-        if (PlayerPrefs.HasKey("ColorR"))
+        if (PlayerPrefs.HasKey("R"))
         {
             
             float r = PlayerPrefs.GetFloat("R");
